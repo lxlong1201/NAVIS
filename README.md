@@ -17,7 +17,7 @@ pip install moviepy==2.2.1
 pip install numpy==1.23.2
 pip install IPython
 ~~~
-You also need to create env2 according to(https://github.com/QwenLM/Qwen2.5-VL) and prepare the weight of Qwen2.5-VL-32B
+You also need to create env2 according to [Qwen](https://github.com/QwenLM/Qwen2.5-VL) and prepare the weight of Qwen2.5-VL-32B
 ### Download the checkpoint
 - downloading [RealVisXL_V4.0](https://huggingface.co/SG161222/RealVisXL_V4.0/tree/main) put it into "ckpt/story_ad/RealVisXL_V4.0"
 - downloading [clip_image_encoder](https://huggingface.co/h94/IP-Adapter/tree/main/sdxl_models/image_encoder) put it into "ckpt/IP-Adapter/sdxl_models/image_encoder"
@@ -42,5 +42,5 @@ conda activate StoryAdapter
 python eva_align.py
 python eva_story.py
 ~~~
-For the image-promt score, you can according to Vistorybench(https://github.com/ViStoryBench/vistorybench)
-- downloading（https://drive.google.com/file/d/1SETgjkj6oUIbjgwxgtXw2I2t4quRzG-3/view?usp=drive_link）for CSD evaluation
+For the image-promt score, you can according to [Vistorybench](https://github.com/ViStoryBench/vistorybench)
+- downloading [weight](https://drive.google.com/file/d/1SETgjkj6oUIbjgwxgtXw2I2t4quRzG-3/view?usp=drive_link) for CSD evaluation
