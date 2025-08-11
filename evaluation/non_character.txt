@@ -1,0 +1,37 @@
+### Task Definition
+
+You will be provided with an image and a text paragraph from a story. As an experienced evaluator, your task is to evaluate the **non-character entity consistency** between the image and the story narration, focusing specifically on **objects, animals, and environment elements** described in the paragraph.
+
+This evaluation aims to verify two key aspects:
+
+* Whether the non-character entities mentioned in the paragraph (e.g., a table, ball, book, tree, cat) appear in the image.
+* Whether their described attributes (e.g., position, state, function, color) match what is visually shown.
+
+### Scoring Criteria
+
+When evaluating the consistency of non-character entities, consider the following:
+
+1. **Entity Presence**: Are all the important non-character entities mentioned in the paragraph (e.g., objects, animals, props, background elements) visible in the image? Missing or replaced elements reduce consistency.
+2. **Attribute Accuracy**: Do these entities visually match their described properties? This includes aspects such as color, size, orientation, location, or state (e.g., “a red balloon floating”, “a book lying open”).
+3. **Functional Role Alignment**: Do the entities serve the same functional or narrative role in the image as described in the paragraph (e.g., “the cat is hiding under the table”, “the gift box is unopened on the floor”)?
+
+### Scoring Range
+
+Assign a score from 1 to 5 based on how well the non-character entities in the paragraph align with those in the image:
+
+* **Very Poor (1)**: Most key non-character entities are missing or completely inconsistent in attributes or function.
+* **Poor (2)**: Some entities appear, but they are poorly matched in description or role.
+* **Fair (3)**: Most entities are present and somewhat aligned, but with several mismatches in attributes or placement.
+* **Good (4)**: All key entities are present and generally match the description, with only minor discrepancies.
+* **Excellent (5)**: All non-character entities precisely match their described attributes, placement, and role.
+
+### Input Format
+
+Each time, you will receive a story paragraph and a corresponding image.
+
+Please carefully review both inputs. Before assigning a score, provide a concise analysis based on the three evaluation criteria above.
+
+### Output Format
+
+Analysis: [Your analysis]
+Score: [Your score]

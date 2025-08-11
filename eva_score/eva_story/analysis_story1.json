@@ -1,0 +1,29 @@
+[
+  {
+    "text": "The boy, excitedly, runs towards the snowman, exclaiming, \"Wow! It's so fluffy!\" He reaches out to touch the snowman's scarf.The snowman winks and lifts his arm, as if greeting the boy. \"Hello there!\" he says with a cheerful smile.",
+    "character_consistency": {
+      "score": 5,
+      "analysis": ""
+    },
+    "causal_temporal_coherence": {
+      "score": 3,
+      "analysis": ""
+    },
+    "emotional_expression": {
+      "score": 3,
+      "analysis": ""
+    },
+    "narrative_integrity": {
+      "score": 4,
+      "analysis": ""
+    },
+    "language_naturalness": {
+      "score": 5,
+      "analysis": ""
+    },
+    "interest": {
+      "score": 4,
+      "analysis": ""
+    }
+  }
+]

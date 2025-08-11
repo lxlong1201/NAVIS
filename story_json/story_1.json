@@ -1,0 +1,50 @@
+{
+    "Characters": {
+        "boy": {
+            "name": "boy",
+            "prompt": "The boy with blue shirt"
+        },
+        "snowman": {
+            "name": "snowman",
+            "prompt": "The snowman with a scarf and a black hat"
+        }
+    },
+    "Shots": [
+        {
+            "index": 1,
+            "Static Shot Description": "boy and snowman in his backyard."
+        },
+      {
+            "index": 2,
+            "Static Shot Description": "snowman winks eye and lifts arm."
+        },
+      {
+            "index": 3,
+            "Static Shot Description": "boy gasps and claps his hands."
+        },
+      {
+            "index": 4,
+            "Static Shot Description": "snowman tap his foot on the snow-covered ground."
+        },
+      {
+            "index": 5,
+            "Static Shot Description": "boy jumps up and starts dancing too."
+        },
+      {
+            "index": 6,
+            "Static Shot Description": "snowman laughs and tosses a snowball to the boy."
+        },
+      {
+            "index": 7,
+            "Static Shot Description": "snowman and boy both fall down laughing in the snow."
+        },
+      {
+            "index": 8,
+            "Static Shot Description": "snowman walks back towards the tree."
+        },
+      {
+            "index": 9,
+            "Static Shot Description": "boy waves his left hand"
+        }
+    ]
+}

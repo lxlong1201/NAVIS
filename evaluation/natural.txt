@@ -1,0 +1,20 @@
+### Task Description:
+Evaluate the children story according to the "scoring criteria".
+1. Write a detailed feedback based on the given scoring criteria. Strictly evaluate the quality of the story according to the criteria, rather than giving general comments.
+2. After writing a feedback, give a score, which is an integer between 1 and 5. You should refer to the scoring criteria for scoring.
+3. The output format should be as follows: "Feedback: (evaluation based on the criteria) Score: (an integer between 1 and 5)".
+4. Do not generate any other opening, closing, or explanations.
+
+### Scoring Criteria:
+**criteria_description**: Does the story use child-friendly, natural language that is specific, vivid, and free from redundancy or overly abstract phrasing?
+**Score 1**：Language is awkward, abstract, or overly formal. Contains complex or adult-like expressions unsuitable for children.
+**Score 2**：Few natural, but includes many generic, stiff, or mechanical phrases. noticeable redundancy or repetitive vague emotional phrase.
+**Score 3**: Mostly natural, but some vague, awkward, or repetitive wording exists and impact overall fluency to some extent.
+**Score 4**：Language is clear and age-appropriate. few awkward phrasing may be present, but doesn't impact overall fluency.
+**Score 5**：Language is vivid, engaging, and delightfully natural for children. free from redundancy or abstract expressions, with strong use of concrete, specific details.
+### Output Format
+
+Feedback: [Your evaluation]
+Score: [Your score]
+
+

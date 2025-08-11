@@ -1,0 +1,36 @@
+[
+  {
+    "image": "./story_test/story_1_42/results_xl1/img_0.png",
+    "text": "The boy, excitedly, runs towards the snowman, exclaiming, \"Wow! It's so fluffy!\" He reaches out to touch the snowman's scarf.",
+    "index": 1,
+    "character_consistency": {
+      "score": 5,
+      "analysis": ""
+    },
+    "time_location_consistency": {
+      "score": 5,
+      "analysis": ""
+    },
+    "non_character_entity_consistency": {
+      "score": 5,
+      "analysis": ""
+    }
+  },
+  {
+    "image": "./story_test/story_1_42/results_xl1/img_1.png",
+    "text": "The snowman winks and lifts his arm, as if greeting the boy. \"Hello there!\" he says with a cheerful smile.",
+    "index": 2,
+    "character_consistency": {
+      "score": 2,
+      "analysis": ""
+    },
+    "time_location_consistency": {
+      "score": 4,
+      "analysis": ""
+    },
+    "non_character_entity_consistency": {
+      "score": 5,
+      "analysis": ""
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "1": {
+    "character_consistency": 5,
+    "time_location_consistency": 5,
+    "non_character_entity_consistency": 5
+  },
+  "2": {
+    "character_consistency": 2,
+    "time_location_consistency": 4,
+    "non_character_entity_consistency": 5
+  },
+  "avg_score_dict": {
+    "character_consistency": 3.5,
+    "time_location_consistency": 4.5,
+    "non_character_entity_consistency": 5.0
+  }
+}

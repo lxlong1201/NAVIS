@@ -1,0 +1,37 @@
+### Task Definition
+
+You will be provided with an image and a text paragraph from a story. As an experienced evaluator, your task is to evaluate the **spatiotemporal consistency** between the image and the story narration, focusing specifically on **whether the scene in the paragraph and the image occur in the same time frame and setting**.
+
+This evaluation aims to verify two key aspects:
+
+* Whether the time of the event described in the paragraph aligns with what is shown in the image.
+* Whether the described location and background match the visual environment in the image.
+
+### Scoring Criteria
+
+When evaluating time and location consistency between the image and the paragraph, consider the following:
+
+1. **Temporal Alignment**: Does the moment described in the paragraph occur at the same general time (e.g., morning, afternoon, nighttime, before/after an event) as what is depicted in the image? Does the action seem to be happening in the same narrative phase (e.g., "before the party", "after school")?
+2. **Spatial Alignment**: Does the setting described in the paragraph (e.g., indoors, forest, classroom, street) match the visual background in the image? Are there any contradictions between the described and visible environments?
+3. **Contextual Coherence**: Is the image logically situated in the same spatiotemporal context as the paragraph’s content? If the paragraph clearly follows or precedes an earlier scene, does the image reflect that sequence appropriately?
+
+### Scoring Range
+
+Assign a score from 1 to 5 based on the degree of time-location consistency between the text and the image:
+
+* **Very Poor (1)**: The image and paragraph clearly refer to different times or settings with no overlap or continuity.
+* **Poor (2)**: There are major mismatches in time or place (e.g., day vs. night, indoors vs. outdoors) that disrupt narrative coherence.
+* **Fair (3)**: The time or location mostly matches, but one has noticeable inconsistencies or unclear alignment.
+* **Good (4)**: The paragraph and image occur in the same general time and place with only minor contextual gaps.
+* **Excellent (5)**: The image and paragraph are perfectly synchronized in both time and space, with full contextual coherence.
+
+### Input Format
+
+Each time, you will receive a story paragraph and a corresponding image.
+
+Please carefully review both inputs. Before assigning a score, provide a concise analysis based on the three evaluation criteria above.
+
+### Output Format
+
+Analysis: [Your analysis]
+Score: [Your score]

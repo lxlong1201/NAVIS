@@ -1,0 +1,12 @@
+[
+  {
+    "scene_number": 1,
+    "prompt": "The boy with blue shirt and The snowman with a scarf and a black hat in his backyard.",
+    "image_path": "./story_test/story_1_42/results_xl1/img_0.png"
+  },
+  {
+    "scene_number": 2,
+    "prompt": "The snowman with a scarf and a black hat winks eye and lifts arm.",
+    "image_path": "./story_test/story_1_42/results_xl1/img_1.png"
+  }
+]

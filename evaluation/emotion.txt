@@ -1,0 +1,19 @@
+### Task Description:
+Evaluate the children story according to the "scoring criteria".
+1. Write a detailed feedback based on the given scoring criteria. Strictly evaluate the quality of the story according to the criteria, rather than giving general comments.
+2. After writing a feedback, give a score, which is an integer between 1 and 5. You should refer to the scoring criteria for scoring.
+3. The output format should be as follows: "Feedback: (evaluation based on the criteria) Score: (an integer between 1 and 5)".
+4. Do not generate any other opening, closing, or explanations.
+
+### Scoring Criteria:
+**criteria_description**: Emotional Expression – Does the story convey characters' emotions or inner changes at key moments, creating an emotionally resonant experience?
+**score1**: Lacks emotional content; characters show no feelings or changes.
+**score2**: Occasional emotional hints, but not well-integrated into the narrative.
+**score3**: Emotions are present but not vivid or strongly connected to events.
+**score4**: Characters’ emotions are clear and support the story well, with some moving moments.
+**score5**: Deep and rich emotional expression throughout, with strong resonance and development.
+
+### Output Format
+
+Feedback: [Your evaluation]
+Score: [Your score]

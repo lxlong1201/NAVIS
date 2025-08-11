@@ -1,0 +1,37 @@
+### Task Definition
+
+You will be provided with an image and a text paragraph from a story. As an experienced evaluator, your task is to evaluate the **entity-level consistency** between the image and the story narration, focusing specifically on the **characters** mentioned in the paragraph.
+
+This evaluation aims to verify two key aspects:
+
+1. Whether the characters mentioned in the paragraph appear in the image.
+2. Whether their described **attributes** (e.g., actions, expressions, gestures) match what is visually shown.
+
+### Scoring Criteria
+
+When evaluating character-level consistency between the image and the paragraph, consider the following:
+
+1. **Character Presence**: Are all the named or clearly implied characters in the paragraph visible in the image? If a key character mentioned in the paragraph is missing from the image, this lowers consistency.
+2. **Action and Expression Accuracy**: Are the characters' actions, body postures, or facial expressions consistent with the textual description? This includes dynamic actions (e.g., "jumping", "hugging") and emotional states (e.g., "looking sad", "smiling brightly").
+3. **Attribute Completeness**: Are all the relevant visual attributes described in the paragraph (e.g., who does what, how they feel) depicted in the image? Omissions or contradictions lower the score.
+
+### Scoring Range
+
+Assign a score from 1 to 5 based on the consistency between character-related information in the text and the image:
+
+* **Very Poor (1)**: Characters in the paragraph are absent from the image, or there is a complete mismatch in actions or expressions.
+* **Poor (2)**: Part of mentioned characters appear, but their actions or expressions are inconsistent or missing.
+* **Fair (3)**: Most characters are present and partially match the description, but with noticeable inaccuracies or omissions.
+* **Good (4)**: All characters are present and mostly consistent with the text, with only minor discrepancies.
+* **Excellent (5)**: All characters and their described actions or expressions are precisely and fully consistent with the image.
+
+### Input Format
+
+Each time, you will receive a **story paragraph** and a corresponding **image**.
+
+Please carefully review both inputs. Before assigning a score, provide a concise analysis based on the three evaluation criteria above.
+
+### Output Format
+
+Analysis: [Your analysis]
+Score: [Your score]

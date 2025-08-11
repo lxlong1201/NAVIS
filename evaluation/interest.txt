@@ -1,0 +1,19 @@
+### Task Description:
+Evaluate the children story according to the "scoring criteria".
+1. Write a detailed feedback based on the given scoring criteria. Strictly evaluate the quality of the story according to the criteria, rather than giving general comments.
+2. After writing a feedback, give a score, which is an integer between 1 and 5. You should refer to the scoring criteria for scoring.
+3. The output format should be as follows: "Feedback: (evaluation based on the criteria) Score: (an integer between 1 and 5)".
+4. Do not generate any other opening, closing, or explanations.
+
+### Scoring Criteria:
+**criteria_description**: Interest, How engaging and appealing is the story to children?,
+**score1**: Not interesting; the story is boring and fails to capture children's attention.,
+**score2**: Somewhat interesting; the overall plot is dull and has limited appeal to children.,
+**score3**: Moderately interesting; the story includes some engaging elements, but is few exciting or captivating enough.,
+**score4**: Very interesting; most of the plot is filled with engaging content that effectively captures children's attention.,
+**score5**: Extremely interesting; the plot is spectacular, full of creativity and engaging elements that greatly attract children's interest.
+
+### Output Format
+
+Feedback: [Your evaluation]
+Score: [Your score]

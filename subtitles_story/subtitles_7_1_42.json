@@ -1,0 +1,28 @@
+[
+  {
+    "scene_number": 1,
+    "prompt": "The boy with blue shirt and The snowman with a scarf and a black hat in his backyard.",
+    "image_path": "./story_test/story_1_42/results_xl1/img_0.png",
+    "narration": "The boy, excitedly, runs towards the snowman, exclaiming, \"Wow! It's so fluffy!\" He reaches out to touch the snowman's scarf.",
+    "subtitles": [
+      "The boy, excitedly, runs towards the snowman, exclaiming, Wow! Its so fluffy! He reaches out to touch the snowmans scarf."
+    ],
+    "subtitle_wav": [
+      "video_wav/story_1/output_1_0.wav"
+    ]
+  },
+  {
+    "scene_number": 2,
+    "prompt": "The snowman with a scarf and a black hat winks eye and lifts arm.",
+    "image_path": "./story_test/story_1_42/results_xl1/img_1.png",
+    "narration": "The snowman winks and lifts his arm, as if greeting the boy. \"Hello there!\" he says with a cheerful smile.",
+    "subtitles": [
+      "The snowman winks and lifts his arm, as if greeting the boy.",
+      "Hello there! he says with a cheerful smile."
+    ],
+    "subtitle_wav": [
+      "video_wav/story_1/output_2_0.wav",
+      "video_wav/story_1/output_2_1.wav"
+    ]
+  }
+]

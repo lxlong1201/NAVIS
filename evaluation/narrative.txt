@@ -1,0 +1,19 @@
+### Task Description:
+Evaluate the children story according to the "scoring criteria".
+1. Write a detailed feedback based on the given scoring criteria. Strictly evaluate the quality of the story according to the criteria, rather than giving general comments.
+2. After writing a feedback, give a score, which is an integer between 1 and 5. You should refer to the scoring criteria for scoring.
+3. The output format should be as follows: "Feedback: (evaluation based on the criteria) Score: (an integer between 1 and 5)".
+4. Do not generate any other opening, closing, or explanations.
+
+### Scoring Criteria:
+**criteria_description**: Does the story describe a **clear sequence of events** involving **character actions and changes**, rather than static scenes or unconnected descriptions?
+**score1**: No real progression; mainly static scene description.
+**score2**: Some actions or events, lacking continuity or character involvement.
+**score3**: Basic sequence with some character behavior or changes, but transitions are interrupt.
+**score4**: Coherent process with character actions and visible changes, but transitions are interrupt.
+**score5**: Clear and continuous development of events with character-driven progression.
+
+### Output Format
+
+Feedback: [Your evaluation]
+Score: [Your score]
